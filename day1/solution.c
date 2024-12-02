@@ -79,7 +79,8 @@ int main()
 	while((read = getline(&line, &len, file)) != -1)
 	{
 		res = strtok(line, " ");
-		while(res != NULL) {
+		while(res != NULL) 
+		{
 			if((tmp = atoi(res))){
 				if(list1[counter] == 0)
 				{
